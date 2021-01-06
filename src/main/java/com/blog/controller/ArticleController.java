@@ -61,6 +61,7 @@ public class ArticleController extends BaseController<Article> {
     ArticleController(ArticleService articleService) {
         super(articleService);
         this.articleService = articleService;
+        int c = 0;
     }
 
     @Autowired
