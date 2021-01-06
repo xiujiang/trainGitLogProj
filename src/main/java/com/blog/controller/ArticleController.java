@@ -75,6 +75,9 @@ public class ArticleController extends BaseController<Article> {
         System.out.println("lll");
         System.out.println("mmm");
         System.out.println("nnn");
+        System.out.println("ooo");
+        System.out.println("ppp");
+        System.out.println("qqq");
 
     }
 
