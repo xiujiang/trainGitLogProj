@@ -63,6 +63,18 @@ public class ArticleController extends BaseController<Article> {
         this.articleService = articleService;
         System.out.println("Aaaa");
         System.out.println("bbb");
+        System.out.println("ccc");
+        System.out.println("ddd");
+        System.out.println("eee");
+        System.out.println("fff");
+        System.out.println("ggg");
+        System.out.println("hhh");
+        System.out.println("iii");
+        System.out.println("jjj");
+        System.out.println("kkk");
+        System.out.println("lll");
+        System.out.println("mmm");
+        System.out.println("nnn");
 
     }
 
