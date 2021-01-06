@@ -61,7 +61,9 @@ public class ArticleController extends BaseController<Article> {
     ArticleController(ArticleService articleService) {
         super(articleService);
         this.articleService = articleService;
-        int c = 0;
+        System.out.println("Aaaa");
+        System.out.println("bbb");
+
     }
 
     @Autowired
@@ -74,11 +76,13 @@ public class ArticleController extends BaseController<Article> {
     @ResponseBody
     public Response addArticle(@RequestBody Article article) {
         logger.info("article:{}", article);
+        System.out.println("ccc");
 //        logger.info("authorId:{},title:{},content:{}",authorId,title,content);
 
 //        if(authorId == 0 || StringUtils.isEmpty(title) || StringUtils.isEmpty(content)){
 //            return new Response("10","文章信息为空",null);
 //        }
+        System.out.println("ddd");
 //        if(!userService.isExist(authorId)){
 //            return new Response("10","用户信息不存在",null);
 //        }
